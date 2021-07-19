@@ -36,15 +36,12 @@ class AllProducts extends React.Component{
         this.state = {
             products: []
         }
-    }
 
-    componentDidMount(){
         axios.get(baseUrl + "products")
         .then(res=>{
             const product=res.data
             this.setState({products: product})
         })
-
     }
 
     render(){
