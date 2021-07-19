@@ -1,7 +1,7 @@
 import React from 'react';
 import './AddProduct.css'
 import 'bootstrap/dist/css/bootstrap.css';
-const baseUrl = "http://localhost:8081/"
+const baseUrl = "https://product-review-x.herokuapp.com/"
 const Feature = () =>{ return (<React.Fragment><br/><input class="form-control" type="text" name="features"/></React.Fragment>)}
 class AddProduct extends React.PureComponent{
     constructor(props){

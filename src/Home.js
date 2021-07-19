@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './AllProducts.css';
 import React from "react";
 import { Link } from 'react-router-dom';
-const baseUrl = "http://localhost:8081/";
+const baseUrl = "https://product-review-x.herokuapp.com/";
 
 class Home extends React.Component{
     constructor(props){
