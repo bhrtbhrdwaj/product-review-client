@@ -42,7 +42,7 @@ class AllProducts extends React.Component{
             const product=res.data
             this.setState({products: product})
         })
-    }
+        }
 
     render(){
         return (
