@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import axios from 'axios';
 import React from 'react';
 import { withRouter } from 'react-router';
-const baseUrl = "http://localhost:8081/";
+const baseUrl = "https://product-review-x.herokuapp.com/";
 
 
 function Feature({ features }) {
